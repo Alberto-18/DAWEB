@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Tres En Raya</title>
+        <link rel="stylesheet" href="/DOM/EjerciciosDOM_BOM/TresRaya/style/ejercicio2.css">
+        <script src="/DOM/EjerciciosDOM_BOM/TresRaya/scripts/ejercicio2.js"></script>
+    </head>
+
+    <body>
+        <input type="text">
+        <input type="text">
+        <button onclick="dibujar()">Iniciar Partida</button>
+        <div class="contenedorPrincipal">
+            <table id="tablero" class="table table-bordered text-center" style="width: 450px; height: 450px;">
+                <tbody>
+                    <tr>
+                        <td id="c0" onclick="pcelda(0)"></td>
+                        <td id="c1" onclick="pcelda(1)"></td>
+                        <td id="c2" onclick="pcelda(2)"></td>
+                    </tr>
+                    <tr>
+                        <td id="c3" onclick="pcelda(3)"></td>
+                        <td id="c4" onclick="pcelda(4)"></td>
+                        <td id="c5" onclick="pcelda(5)"></td>
+                    </tr>
+                    <tr>
+                        <td id="c6" onclick="pcelda(6)"></td>
+                        <td id="c7" onclick="pcelda(7)"></td>
+                        <td id="c8" onclick="pcelda(8)"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button onclick="dibujar()">Reiniciar</button>
+
+    </body>
+
+</html>

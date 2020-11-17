@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+
+.celda{
+    height: 150px;
+    width: 150px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 0px;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/DAWEB/EventosYFormularios/EjerciciosApuntes/Ejercicio5/style/estilos.css">
+        <script src="/DAWEB/EventosYFormularios/EjerciciosApuntes/Ejercicio5/scripts/script.js"></script>
+        <title>Formularios</title>
+
+    </head>
+
+    <body>
+        <h1>Formularios</h1>
+
+        <div>
+            <form action="ejemplo" method="get"  name=”formulario” id=”idFormulario”>
+                <h4>Número de Telefono</h4>
+                <input type="text" id="telefono" onkeypress="return validarNumeros(event)" />
+                
+                <h4>Horario:</h4>
+                <input type="checkbox" value="0614" name="hora" id="0614"/> 06:00 a 14:00
+                <br>
+                <input type="checkbox" value="1420" name="hora" id="1420"/> 14:00 a 20:00
+                <br>
+                <input type="checkbox" value="2001" name="hora" id="2001"/> 20:00 a 01:00
+
+                <h4>Prepago:</h4>
+                <input type="radio" name="prep">Si
+                <input type="radio" name="prep">No
+            
+                <h4>Compañia:</h4>
+                <select name="Desplegable" onkeypress="return validarDesplegable(event)">
+                    <option value="1">Orange</option> 
+                    <option value="2">Vodafone</option> 
+                    <option value="3">Movistar</option>
+                    <option value="4">Amena</option> 
+                    <option value="5">Yoigo</option> 
+                </select>
+
+                <h4>Observaciones:</h4>
+                <textarea name="texto" id="textArea" rows="10" cols="40" maxlength="140" onkeypress="return maximoLetras(140)"></textarea>
+                <br>
+
+                <button type="sudmit"> Enviar </button>
+                <br>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html> 

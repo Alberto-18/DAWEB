@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    padding: 15px;
+}
+
+div {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+}
+
+#secArrIzq {
+    float: left;
+    width: 50%;
+}
+
+#secArrDer {
+    float: right;
+    width: 50%;
+}
+
+#secCentIzq {
+    float: left;
+    width: 33%;
+}
+
+#secCentCent {
+    float: left;
+    width: 34%;
+}
+
+#secCentDer {
+    float: right;
+    width: 33%;
+}
+
+#secAbaIzq {
+    float: left;
+    width: 50%;
+}
+
+#secAbaDer {
+    float: right;
+    width: 50%;
+}
+
+button {
+    width: 40%;
+    height: 50px;
+    font-size: large;
+}

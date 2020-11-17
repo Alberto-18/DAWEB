@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    padding: 15px;
+}
+
+div {
+    border: 1px solid green;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 25px;
+}
+
+.titularNoticia {
+    float: left;
+    width: 33.3%;
+    font-size: large;
+}
+
+.otroTipo {
+    float: left;
+    width: 50%;
+    font-size: large;
+}
+
+#botonMostrar {
+    width: 40%;
+    height: 25px;
+    font-size: large;
+    margin-top: 10px;
+}
